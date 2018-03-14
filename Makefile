@@ -6,4 +6,4 @@ clean:
 
 install: all
 	install -m0755 teres1-debug /usr/local/sbin
-	
+	install -m0755 debug_switch.sh /usr/local/sbin
