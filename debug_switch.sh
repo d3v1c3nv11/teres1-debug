@@ -15,5 +15,5 @@ case $1 in
 	    echo "Debug on headphone port disabled. Please reboot !"
             ;;
 	*)
-        echo "Unknown option! Usage: ./debug_swirch on|off "
+        echo "Unknown option! Usage: debug_switch on|off "
 	esac
