@@ -3,24 +3,24 @@
 teres1-debug and debug_switch.sh are DIY-TERES1 utilities for turning debug on or off 
 
 
-Usage:
+Usage: All commands must be executed as superuser
 
 - switch on/off debug for current session only until reboot
 ```bash
-teres1-debug on
+sudo teres1-debug on
 ```
 or
 ```bash
-teres1-debug off
+sudo teres1-debug off
 ```
 
 - switch on/off debug permanently
 ```bash
-debug_switch.sh on
+sudo debug_switch.sh on
 ```
 or
 ```bash
-debug_switch.sh off
+sudo debug_switch.sh off
 ```
 
 
