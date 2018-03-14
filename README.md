@@ -34,3 +34,17 @@ sudo make install
 ```
 destination path for installing is /usr/local/sbin, to change - edit Makefile
 
+
+Jack connection:
+```bash
+TX   RX
+ |   |    
+=== == ====|||||||||----------------------------
+         |
+        GND
+```
+
+# VERY IMPORTANT!!! 
+# Use 3.3V levels serial adaptor! 
+# DO NOT USE RS232 LEVEL ADAPTORS!
+
