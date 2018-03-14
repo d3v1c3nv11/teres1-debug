@@ -68,7 +68,7 @@ int mode;
 uid_t uid=getuid(), euid=geteuid();
 
 
-if (uid!=0 || uid!=uid || !argv[1]) {
+if (uid!=0 || uid!=euid || !argv[1]) {
 	 usage();
     exit(0);
 }else{
