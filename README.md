@@ -44,7 +44,7 @@ TX   RX
         GND
 ```
 
-# VERY IMPORTANT!!! 
-# Use 3.3V levels serial adaptor! 
-# DO NOT USE RS232 LEVEL ADAPTORS!
+## VERY IMPORTANT!!! 
+## Use 3.3V level serial adapter! Consider our TERES-USB-DEBUG cable: https://www.olimex.com/Products/DIY-Laptop/KITS/TERES-USB-DEBUG/
+## DO NOT USE RS232 LEVEL ADAPTERS!
 
