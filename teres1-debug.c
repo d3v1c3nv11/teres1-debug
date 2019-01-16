@@ -79,7 +79,7 @@ if (uid!=0 || uid!=euid || !argv[1]) {
   else { usage(); exit(0); }
   export_gpio(DEBUGEN);
   set_gpio(DEBUGEN, mode);
-	if (mode==1){
+	if (mode==0){
 		system("amixer -c 0 set \"External Speaker\" on > /dev/null");
 		system("amixer -c 0 set \"Headphone\" off > /dev/null");
 	}
